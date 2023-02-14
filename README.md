@@ -6,7 +6,7 @@ Creates the fasta file ```kmers.fasta```.
 
 ## find_dmel_orf.py
 
-Finds the first open reading frame (ORF) frome the non-local fasta file ```/scratch/Drosophila/dmel-all-chromosome-r6.17.fasta```. Translates the OFT to protein and prints out the protein.
+Finds the first open reading frame (ORF) from the non-local fasta file ```/scratch/Drosophila/dmel-all-chromosome-r6.17.fasta```. Translates the OFT to protein and prints out the protein.
 
 ## find_orf.py
 
