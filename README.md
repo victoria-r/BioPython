@@ -54,7 +54,7 @@ This BioPython script reads a multi-sequence FASTA file and outputs a FASTA file
 
 ## sliding_window_fasta.py
 
-This BioPython script revises the sliding_window_fasta.py script from SlidingWindow repo to open with SeqIO. This file modifies the script sliding_window.py and uses the same functions but, instead of taking a k-mer size and a string, it takes a k_mer size and a fasta file. It also will run separately fo reach header, printing the header name on one line, and then each k-mer from that fasta entry followed by a tab, followed by the GC content of that k-mer, rounded to two decimal places. Tested with the dengue.fasta file.
+This BioPython script revises the sliding_window_fasta.py script from SlidingWindow repo to open with SeqIO. This file modifies the script sliding_window.py and uses the same functions but, instead of taking a k-mer size and a string, it takes a k_mer size and a fasta file. It also will run separately for each header, printing the header name on one line, and then each k-mer from that fasta entry followed by a tab, followed by the GC content of that k-mer, rounded to two decimal places. Tested with the dengue.fasta file.
 
 ## Getting Started
 
